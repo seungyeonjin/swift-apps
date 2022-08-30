@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9C47B518-144A-41EC-85C4-44A5BCB34F8C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9524630C-2978-471E-B9BD-92AC3907C57F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Restart/Screens/OnboardingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "OnboardingView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "9524630C-2978-471E-B9BD-92AC3907C57F - 94fa88ab662cb4f9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of Restart.OnboardingView.buttonWidth : Swift.Double"
+                  moduleName = "Restart"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cami/Documents/GitHub/swift-apps/Restart/Restart/Screens/OnboardingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "9524630C-2978-471E-B9BD-92AC3907C57F - db29b052358bb03b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Restart.OnboardingView.init(isOnboardingViewActive: Swift.Bool) -&gt; Restart.OnboardingView"
+                  moduleName = "Restart"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cami/Documents/GitHub/swift-apps/Restart/Restart/Screens/OnboardingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "8"
+                  endingLineNumber = "8"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
