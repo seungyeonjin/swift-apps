@@ -3,7 +3,7 @@ import SwiftUI
 struct SettingsView: View {
     // MARK: - PROPERTIES
     
-    @Environment(\.presentationMode) var presentationMode
+    @Environment(\.dismiss) private var dismiss
     @AppStorage("isOnboarding") var isOnboarding: Bool = false
     
     // MARK: - BODY
@@ -82,13 +82,14 @@ struct SettingsView: View {
                 .navigationBarItems(
                     trailing:
                         Button(action: {
-                            presentationMode.wrappedValue.dismiss()
+                            dismiss()
                         }) {
                             Image(systemName: "xmark")
                         }
                 )
                 .padding()
             } //: SCROLL
+            
         } //: NAVIGATION
     }
 }
