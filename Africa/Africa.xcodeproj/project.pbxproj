@@ -40,6 +40,10 @@
 		36F7B50928CA011200FFE3A9 /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7B50828CA011200FFE3A9 /* InsetFactView.swift */; };
 		36F7B50D28CA1CD100FFE3A9 /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7B50C28CA1CD100FFE3A9 /* InsetMapView.swift */; };
 		36F7B51128CA1F5000FFE3A9 /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7B51028CA1F5000FFE3A9 /* ExternalWeblinkView.swift */; };
+		36F7B51328CE218200FFE3A9 /*  VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7B51228CE218200FFE3A9 /*  VideoModel.swift */; };
+		36F7B51528CE21DA00FFE3A9 /* 					VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7B51428CE21DA00FFE3A9 /* 					VideoListItemView.swift */; };
+		36F7B51728CE26F300FFE3A9 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7B51628CE26F300FFE3A9 /* VideoPlayerView.swift */; };
+		36F7B51A28CE27CC00FFE3A9 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7B51928CE27CC00FFE3A9 /* VideoPlayerHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +82,10 @@
 		36F7B50828CA011200FFE3A9 /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		36F7B50C28CA1CD100FFE3A9 /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		36F7B51028CA1F5000FFE3A9 /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
+		36F7B51228CE218200FFE3A9 /*  VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " VideoModel.swift"; sourceTree = "<group>"; };
+		36F7B51428CE21DA00FFE3A9 /* 					VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "\t\t\t\t\tVideoListItemView.swift"; sourceTree = "<group>"; };
+		36F7B51628CE26F300FFE3A9 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		36F7B51928CE27CC00FFE3A9 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,7 @@
 		36F7B4BB28C9C2AE00FFE3A9 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				36F7B51828CE27B900FFE3A9 /* Helper */,
 				36F7B4F928C9CBCE00FFE3A9 /* Extension */,
 				36F7B4F628C9CAB500FFE3A9 /* Model */,
 				36F7B4F328C9C8AC00FFE3A9 /* View */,
@@ -183,6 +192,8 @@
 				36F7B50828CA011200FFE3A9 /* InsetFactView.swift */,
 				36F7B50C28CA1CD100FFE3A9 /* InsetMapView.swift */,
 				36F7B51028CA1F5000FFE3A9 /* ExternalWeblinkView.swift */,
+				36F7B51428CE21DA00FFE3A9 /* 					VideoListItemView.swift */,
+				36F7B51628CE26F300FFE3A9 /* VideoPlayerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,6 +203,7 @@
 			children = (
 				36F7B4F728C9CAD000FFE3A9 /* CoverImageModel.swift */,
 				36F7B4FE28C9D33F00FFE3A9 /* AnimalModel.swift */,
+				36F7B51228CE218200FFE3A9 /*  VideoModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -202,6 +214,14 @@
 				36F7B4FA28C9CBE200FFE3A9 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		36F7B51828CE27B900FFE3A9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				36F7B51928CE27CC00FFE3A9 /* VideoPlayerHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,13 +318,17 @@
 				36F7B50128C9D50400FFE3A9 /* AnimalDetailView.swift in Sources */,
 				36F7B4FF28C9D33F00FFE3A9 /* AnimalModel.swift in Sources */,
 				36F7B4EE28C9C6BE00FFE3A9 /* MapView.swift in Sources */,
+				36F7B51A28CE27CC00FFE3A9 /* VideoPlayerHelper.swift in Sources */,
+				36F7B51328CE218200FFE3A9 /*  VideoModel.swift in Sources */,
 				36F7B50D28CA1CD100FFE3A9 /* InsetMapView.swift in Sources */,
 				36F7B4BD28C9C2AE00FFE3A9 /* AfricaApp.swift in Sources */,
 				36F7B4EC28C9C6B300FFE3A9 /* VideoListView.swift in Sources */,
 				36F7B4F028C9C6C900FFE3A9 /* GalleryView.swift in Sources */,
 				36F7B50728C9D85600FFE3A9 /* InsetGalleryView.swift in Sources */,
+				36F7B51528CE21DA00FFE3A9 /* 					VideoListItemView.swift in Sources */,
 				36F7B4FB28C9CBE200FFE3A9 /* CodableBundleExtension.swift in Sources */,
 				36F7B50328C9D72500FFE3A9 /* HeadingView.swift in Sources */,
+				36F7B51728CE26F300FFE3A9 /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

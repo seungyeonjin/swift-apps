@@ -78,7 +78,7 @@ struct AnimalDetailView: View {
     }
 }
 
-//
+
 struct AnimalDetailView_Previews: PreviewProvider {
     static let animals: [Animal] = Bundle.main.decode("animals.json")
     
